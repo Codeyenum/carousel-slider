@@ -108,9 +108,7 @@ gestureZone.addEventListener('touchend', function (event) {
     handleGesture();
 }, false);
 
-function handleGesture() {
-    console.log(touchstartX);
-    console.log(touchendX);
+function handleGesture() {    
     if ((touchendX < touchstartX) && ((touchstartX - touchendX) > 20)) {
         if (currentSlide < 2) {
             currentSlide++
