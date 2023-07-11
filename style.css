@@ -19,6 +19,7 @@
 .carousel {    
     height: 100%;
     width: 80%;
+    scroll-behavior: smooth;
 }
 
 .slider-container {
