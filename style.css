@@ -6,7 +6,8 @@
 
 html,
 body {
-    max-height: 100vh;    
+    max-height: 100vh;  
+    overflow: hidden;     
 }
 
 .carousel-container {
@@ -36,7 +37,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    height: 97.5%;
+    height: 100%;
     overflow: hidden;
     position: relative;    
 }
