@@ -4,20 +4,25 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 .carousel-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 
     background-color: black;
-    height: 100vh;         
+    height: 100vh;
     position: relative;
     top: 0;
-    width: 100%;   
+    width: 100%;
 }
 
-.carousel {   
+.carousel {
     margin: auto;
     height: 100%;
     width: 80%;
@@ -26,10 +31,10 @@
 
 .slider-container {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     height: 97.5%;
     overflow: hidden;
     position: relative;
@@ -41,26 +46,28 @@
     transition: all 1.5s ease-in;
 }
 
-.slide.one, .slide.two, .slide.three {
-    transform: translateX(100vw);        
-} 
+.slide.one,
+.slide.two,
+.slide.three {
+    transform: translateX(100vw);
+}
 
 .slide.selected {
-    transform: translateX(0vw);     
+    transform: translateX(0vw);
     transition: all 1.5s ease-in;
 }
 
-.slide img {    
+.slide img {
     height: 100%;
     width: 100%;
 }
 
 .dots-container {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
     bottom: .25rem;
     position: absolute;
 }

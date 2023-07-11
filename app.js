@@ -109,7 +109,7 @@ gestureZone.addEventListener('touchend', function (event) {
 }, false);
 
 function handleGesture() {    
-    if ((touchendX < touchstartX) && ((touchstartX - touchendX) > 20)) {
+    if ((touchendX < touchstartX) && ((touchstartX - touchendX) > 25)) {
         if (currentSlide < 2) {
             currentSlide++
         }
@@ -123,7 +123,7 @@ function handleGesture() {
         });
     }
 
-    if (touchendX > touchstartX && ((touchendX - touchstartX) > 20)) {
+    if (touchendX > touchstartX && ((touchendX - touchstartX) > 25)) {
         if (currentSlide > 0) {
             currentSlide--
         }
