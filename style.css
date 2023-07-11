@@ -6,7 +6,7 @@
 
 html,
 body {
-    max-height: 100vh;
+    max-height: 100vh;    
 }
 
 .carousel-container {
@@ -27,6 +27,7 @@ body {
     height: 100%;
     width: 80%;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 .slider-container {
@@ -37,7 +38,7 @@ body {
 
     height: 97.5%;
     overflow: hidden;
-    position: relative;
+    position: relative;    
 }
 
 .slide {
