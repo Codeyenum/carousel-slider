@@ -11,8 +11,9 @@
     justify-content: center;    
 
     background-color: black;
-    min-height: 100vh;     
+    height: 100vh;         
     position: relative;
+    top: 0;
     width: 100%;   
 }
 
