@@ -87,3 +87,7 @@ body {
 .dots.selected {
     background-color: red;
 }
+
+.button {
+    display: none;
+}
